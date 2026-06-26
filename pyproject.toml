@@ -1,0 +1,10 @@
+[project]
+name = "bielik-dflash-mlx"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "mlx>=0.31.0",
+    "mlx-lm>=0.31.0",
+    "huggingface-hub",
+    "dflash[mlx] @ git+https://github.com/z-lab/dflash.git",
+]
